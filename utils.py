@@ -75,7 +75,7 @@ class DataQuality():
             raise KeyError(f"Sütun bulunamadı: {col_target}")
         except Exception as e:
             logging.error(f"Beklenmedik bir hata oluştu: {e}")
-            rais
+            raise
 
     
 
